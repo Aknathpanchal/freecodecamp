@@ -1,0 +1,136 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is JavaScript?",
+        "OptionA": "JavaScript is a scripting language used to make the website interactive",
+        "OptionB": "JavaScript is an assembly language used to make the website interactive",
+        "OptionC": "JavaScript is a compiled language used to make the website interactive",
+        "OptionD": "None of the mentioned",
+        "correctAnswerOption": "OptionA",
+        "attacmentImage": "gj.com",
+        "attacmentVideo": "vid.com"
+      },
+      {
+        "id": 2,
+        "question": "which of the following is correct about JavaScript?",
+        "OptionA": "JavaScript is an Object-Based language",
+        "OptionB": "JavaScript is Assembly-language",
+        "OptionC": "JavaScript is an Object-Oriented language",
+        "OptionD": "JavaScript is a High-level language",
+        "correctAnswerOption": "OptionA",
+        "attacmentImage": "gj.com",
+        "attacmentVideo": "vid.com"
+      },
+      {
+        "id": 3,
+        "question": "In which HTML element, we put the JavaScript code?",
+        "OptionA": "<javascript>...</javascript>",
+        "OptionB": "<js>...</js>",
+        "OptionC": "<script>...</script>",
+        "OptionD": "<css>...</css>",
+        "correctAnswerOption": "OptionC",
+        "attacmentImage": "gj.com",
+        "attacmentVideo": "vid.com"
+      },
+      {
+        "question": "Which type of JavaScript language is ___",
+        "OptionA": "Object-Oriented",
+        "OptionB": "Object-Based",
+        "OptionC": "Assembly-language",
+        "OptionD": "High-level",
+        "correctAnswerOption": "Object-Based",
+        "attacmentImage": "gj.com",
+        "attacmentVideo": "vid.com",
+        "id": 4
+      },
+      {
+        "question": "Which one of the following also known as Conditional Expression:",
+        "OptionA": "Alternative to if-else",
+        "OptionB": "Switch statement",
+        "OptionC": "If-then-else statement",
+        "OptionD": "immediate if",
+        "correctAnswerOption": "immediate if",
+        "attacmentImage": "x",
+        "attacmentVideo": "x",
+        "id":5
+    },
+    {
+        "question": "In JavaScript, what is a block of statement?",
+        "OptionA": "Conditional block",
+        "OptionB": "block that combines a number of statements into a single compound statement",
+        "OptionC": "both conditional block and a single statement",
+        "OptionD": "block that contains a single statement",
+        "correctAnswerOption": "block that combines a number of statements into a single compound statement",
+        "attacmentImage": "x",
+        "attacmentVideo": "x",
+        "id":6
+    },
+    {
+        "question": "When interpreter encounters an empty statements, what it will do:",
+        "OptionA": "Shows a warning",
+        "OptionB": "Prompts to complete the statement",
+        "OptionC": "Throws an error",
+        "OptionD": "Ignores the statements",
+        "correctAnswerOption": "Ignores the statements",
+        "attacmentImage": "x",
+        "attacmentVideo": "x",
+        "id":7
+    },
+    {
+        "question": "Which of the following variables takes precedence over the others if the names are the same?",
+        "OptionA": "Global variable",
+        "OptionB": "The local element",
+        "OptionC": "The two of the above",
+        "OptionD": "None of the above",
+        "correctAnswerOption": "The local element",
+        "attacmentImage": "x",
+        "attacmentVideo": "x",
+        "id":8
+    },
+    {
+        "question": "Which one of the following is the correct way for calling the JavaScript code?",
+        "OptionA": "Preprocessor",
+        "OptionB": "Triggering Event",
+        "OptionC": "RMI",
+        "OptionD": "Function/Method",
+        "correctAnswerOption": "Function/Method",
+        "attacmentImage": "x",
+        "attacmentVideo": "x",
+        "id":9
+    },
+    {
+        "question": " Which of the following type of a variable is volatile?",
+        "OptionA": "Mutable variable",
+        "OptionB": "Dynamic variable",
+        "OptionC": "Volatile variable",
+        "OptionD": "Immutable variable",
+        "correctAnswerOption": "Mutable variable",
+        "attacmentImage": "gj.com",
+        "attacmentVideo": "vid.com",
+        "id": 10
+      },
+      {
+        "question": "Which of the following option is used as hexadecimal literal beginning?",
+        "OptionA": "00",
+        "OptionB": "0x",
+        "OptionC": "0X",
+        "OptionD": "Both 0x and 0X",
+        "correctAnswerOption": "Both 0x and 0X",
+        "attacmentImage": "gj.com",
+        "attacmentVideo": "vid.com",
+        "id": 11
+      },
+      {
+        "question": "Which of the following number object function returns the value of the number?",
+        "OptionA": "toString()",
+        "OptionB": "valueOf()",
+        "OptionC": "toLocaleString()",
+        "OptionD": "toPrecision()",
+        "correctAnswerOption": "OptionB",
+        "attacmentImage": "gj.com",
+        "attacmentVideo": "vid.com",
+        "id":12
+      }
+  ]
+}

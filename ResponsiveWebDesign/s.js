@@ -36,7 +36,7 @@ const map = {
 // Input 1: "target3" --- Input 2: map  -----> Output: ""
 
 function find(key,obj){
-map
+
 }
 
 // var x = 10;
@@ -62,59 +62,59 @@ map
 
 //5,-10,-10,-4,20
 
-var arr=[1,2,3,4,5,6,7,8,9]
-ans= [ [2,8], [3,7], [4,6] , [1,9] ]
-var target=10
+// var arr=[1,2,3,4,5,6,7,8,9]
+// ans= [ [2,8], [3,7], [4,6] , [1,9] ]
+// var target=10
 
 
-function value(arr,target){
-  console.log(arr)
-  var s=0
-  var e=arr.length
-  var Data=[]
-  console.log(s,e)
-  while(s<arr.length-1){
+// function value(arr,target){
+//   console.log(arr)
+//   var s=0
+//   var e=arr.length
+//   var Data=[]
+//   console.log(s,e)
+//   while(s<arr.length-1){
     
-    if(arr[s]+arr[e]==target){
-      Data.push(arr[s],arr[e])
-    }
-    else if(arr[s]+arr[e]<target){
-      s++
-    }else {
-      e--
-    }
-  }
-  console.log(Data)
-}
-value(arr,target)
+//     if(arr[s]+arr[e]==target){
+//       Data.push(arr[s],arr[e])
+//     }
+//     else if(arr[s]+arr[e]<target){
+//       s++
+//     }else {
+//       e--
+//     }
+//   }
+//   console.log(Data)
+// }
+// value(arr,target)
 
-var arr=[1,2,3,4,5,6,7,8,9]
-ans= [ [2,8], [3,7], [4,6] , [1,9] ]
-var target=10
+// var arr=[1,2,3,4,5,6,7,8,9]
+// ans= [ [2,8], [3,7], [4,6] , [1,9] ]
+// var target=10
 
 
-function value(arr,target){
-  console.log(arr)
-  var s=0
-  var e=arr.length-1
-  var Data=[]
-  // console.log(s,e)
-  while(s<e){
+// function value(arr,target){
+//   console.log(arr)
+//   var s=0
+//   var e=arr.length-1
+//   var Data=[]
+//   // console.log(s,e)
+//   while(s<e){
     
-    if(arr[s]+arr[e]==target && s!=e){
-      Data.push(arr[s],arr[e])
-      s++
-      e--
-    }
-    else if(arr[s]+arr[e]<target){
-      s++
-    }else {
-      e--
-    }
-  }
-  console.log(Data)
-}
-value(arr,target)
+//     if(arr[s]+arr[e]==target && s!=e){
+//       Data.push(arr[s],arr[e])
+//       s++
+//       e--
+//     }
+//     else if(arr[s]+arr[e]<target){
+//       s++
+//     }else {
+//       e--
+//     }
+//   }
+//   console.log(Data)
+// }
+// value(arr,target)
 
 //   var data=[]
 // for(var i=0;i<arr.length;i++){

@@ -131,3 +131,49 @@ function find(key,obj){
 // }
 
 // value(arr,target)
+
+// let arr = [10201,30215,90051,36103,92315]
+// //arr=arr.split(',').map(Number)
+// // for (var i=0 ; i<arr.length ; i++){
+// //  var arr2=
+// // }
+// var bag=[];
+
+// let a ;
+// // let obj = {}
+// let mid ;
+// for(let i =0;i<arr.length;i++){
+
+    
+// //   bag = bag + arr[i];
+ 
+//   a = arr[i].toString()
+
+//   mid = Math.floor(arr.length/2)
+// //   console.log(a)
+//   //   console.log(mid)
+
+//    console.log(+(a[mid]), arr[i])
+
+// // bag.push(+(a[mid]) , arr[i] )
+
+// //    bag.push(+(a[mid] :  )    )
+
+// }
+// // console.log(bag )
+
+
+// merge sort
+
+var arr=[3,4,2,1,7]
+// arr=arr.split(",").map(number)
+function merge(arr , arr.length){
+console.log(arr)
+if(arr.length==1){
+
+}
+mid=~~(arr.length/2)
+return merge(, 
+}
+
+merge(arr, arr.length)

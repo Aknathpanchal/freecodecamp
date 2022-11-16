@@ -165,15 +165,103 @@ function find(key,obj){
 
 // merge sort
 
-var arr=[3,4,2,1,7]
-// arr=arr.split(",").map(number)
-function merge(arr , arr.length){
-console.log(arr)
-if(arr.length==1){
+// var arr=[3,4,2,1,7]
+// // arr=arr.split(",").map(number)
+// function merge(arr , arr.length){
+// console.log(arr)
+// if(arr.length==1){
 
-}
-mid=~~(arr.length/2)
-return merge(, 
-}
+// }
+// mid=~~(arr.length/2)
+// return merge(, 
+// }
 
-merge(arr, arr.length)
+// merge(arr, arr.length)
+
+
+
+// function power(x, y)
+// {
+//     if( y == 0)
+//         return 1;
+//     if (y % 2 == 0)
+//         return power(x, parseInt(y / 2, 10)) *
+//                power(x, parseInt(y / 2, 10));
+                  
+//     return x * power(x, parseInt(y / 2, 10)) *
+//                power(x, parseInt(y / 2, 10));
+// }
+
+// // Function to calculate
+// // order of the number
+// function order(x)
+// {
+//     let n = 0;
+//     while (x != 0)
+//     {
+//         n++;
+//         x = parseInt(x / 10, 10);
+//     }
+//     return n;
+// }
+
+// // Function to check whether the
+// // given number is Armstrong number
+// // or not
+// function isArmstrong(x)
+// {
+       
+//     // Calling order function
+//     let n = order(x);
+//     let temp = x, sum = 0;
+//     while (temp != 0)
+//     {
+//         let r = temp % 10;
+//         sum = sum + power(r, n);
+//         temp = parseInt(temp / 10, 10);
+//     }
+
+//     // If satisfies Armstrong condition
+//     return (sum == x);
+// }
+ 
+// let x = 153;
+// if(isArmstrong(x))
+// {
+//     document.write("True" + "</br>");
+// }
+// else{
+//     document.write("False" + "</br>");
+// }
+// x = 1253;
+// if(isArmstrong(x))
+// {
+//     document.write("True");
+// }
+// else{
+//     document.write("False");
+// }
+setTimeout(() => {
+  console.log('2sec');
+}, 2000);
+
+let prom=new Promise((resolve,reject)=>{
+  setTimeout(() => {
+    console.log('1sec');
+  }, 1000);
+}).then((res)=>{
+  setTimeout(() => {
+    console.log('5sec');
+  }, 5000);
+})
+
+
+
+
+
+
+
+//output =>
+// 2sec
+// 1sec
+// 5sec

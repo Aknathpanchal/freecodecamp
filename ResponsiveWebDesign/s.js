@@ -241,19 +241,23 @@ function find(key,obj){
 // else{
 //     document.write("False");
 // }
-setTimeout(() => {
-  console.log('2sec');
-}, 2000);
 
-let prom=new Promise((resolve,reject)=>{
-  setTimeout(() => {
-    console.log('1sec');
-  }, 1000);
-}).then((res)=>{
-  setTimeout(() => {
-    console.log('5sec');
-  }, 5000);
-})
+
+
+
+// setTimeout(() => {
+//   console.log('2sec');
+// }, 2000);
+
+// let prom=new Promise((resolve,reject)=>{
+//   setTimeout(() => {
+//     console.log('1sec');
+//   }, 1000);
+// }).then((res)=>{
+//   setTimeout(() => {
+//     console.log('5sec');
+//   }, 5000);
+// })
 
 
 
